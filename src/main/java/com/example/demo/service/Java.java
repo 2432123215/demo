@@ -3,6 +3,8 @@ package com.example.demo.service;/**
  * @create 2020-09-24 17:27
  */
 
+import org.springframework.stereotype.Service;
+
 /**
  *@ClassName: Java
  *@Description:
@@ -11,6 +13,12 @@ package com.example.demo.service;/**
  *@Version 1.0
  *
  **/
+@Service
 public class Java {
+
+    public  void sava(){
+        System.out.println("nihao");
+        System.out.println("version :1");
+    }
 
 }
