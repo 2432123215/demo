@@ -11,6 +11,10 @@ package com.example.demo.service;/**
  *@Version 1.0
  *
  **/
+ @controller
 public class Java {
+	public  static void main(){
+		
+	}
 
 }
